@@ -6,37 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <meta name="robots" content="noindex, follow">
     <title>Stardust Lab</title>
 </head>
 
 <body>
-
-    <header>
-
-        <section class="top-nav">
-            <div class="logo">
-                <a href=""> <img src="assets/stardust_lab_logo.svg" alt=""></a>
+    <header class="header">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                    <a href="https://erikterwan.com/" target="_blank">
+                        <li>Show me more</li>
+                    </a>
+                </ul>
             </div>
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-            <ul class="menu">
-                <li><a href="">Bikini</a> </li>
-                <li><a href="">Custom made</a> </li>
-                <li><a href="">Accessories</a></li>
-                <li><a href="">About</a></li>
-            </ul>
-            <div class="cart-search">
-                <a href=""> <img src="assets/search.svg" alt=""></a>
-                <span class="space"></span>
-                <a href=""> <img src="assets/shop.svg" alt=""></a>
-            </div>
-        </section>
-
+        </nav>
+        <a href="" class="logo"> <img src="/assets/stardust_lab_logo.svg" alt="s"></a>
+        <a href="#" class="cart"> <img src="/assets/shop.svg" alt="s"></a>
     </header>
 
-    <main></main>
+    <main>
+        <div>
+            <img class="full-width" alt="Sunset Panorama"
+                src="https://i.natgeofe.com/n/c864b2ea-da26-4b2a-8ab6-52d832ef2dc0/5585182_2x1.jpg" />
+        </div>
+    </main>
 
     <footer></footer>
 </body>
