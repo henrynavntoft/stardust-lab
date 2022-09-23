@@ -38,13 +38,6 @@ a {
   padding: 2em;
 }
 
-.header .cart:hover {
-  content: "";
-  height: 100vh;
-  width: 40%;
-  background-color: hotpink;
-}
-
 .header .cart img {
   height: 30px;
 }
