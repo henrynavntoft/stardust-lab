@@ -6,13 +6,7 @@
   margin: 0;
 }
 
-/* Navigation */
-
-a {
-  color: #000;
-}
-
-/* header */
+/* Header */
 
 .header {
   border: 1px solid black;
@@ -42,7 +36,7 @@ a {
   height: 30px;
 }
 
-/* menu */
+/* Burger menu */
 
 #menuToggle {
   display: block;
@@ -69,9 +63,6 @@ a {
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span {
   display: block;
   width: 30px;
