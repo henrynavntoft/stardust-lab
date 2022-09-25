@@ -236,6 +236,19 @@ input[type="checkbox"] {
   padding: 1em;
 }
 
+.buy-now-but {
+  display: flex;
+  background-color: #000000;
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.buy-now-but:hover {
+  background-color: greenyellow;
+}
+
 .about-grid {
   display: grid;
   grid-gap: 2em;
