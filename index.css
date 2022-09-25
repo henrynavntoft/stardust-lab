@@ -216,7 +216,6 @@ input[type="checkbox"] {
 
 .bestsellers-grid-item {
   border: 1px solid black;
-  background-color: #f2f2f2;
 }
 
 .bestsellers-grid img {
@@ -406,3 +405,41 @@ footer .footer-item p:hover {
     opacity: 1;
   }
 }
+
+/* Product List Page */
+
+.product-list {
+  padding-top: 8em;
+}
+
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 2em;
+  padding: 2em;
+  justify-items: center;
+}
+
+.product-list-grid-item {
+  border: 1px solid black;
+}
+
+.product-list-grid img {
+  width: 100%;
+  height: auto;
+  padding: 2em;
+}
+
+.product-list-price {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.product-list-name {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+/* Product Page */
