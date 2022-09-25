@@ -404,7 +404,9 @@ footer .footer-item p:hover {
   width: 100%;
   position: relative;
   margin: auto;
+  /* margin: 0; */
   padding-top: 8em;
+  border: 5px solid hotpink;
 }
 
 .fullsize-carrusel img {
