@@ -19,7 +19,9 @@
 }
 
 .header .logo {
-  padding: 2em;
+  /* padding: 2em; */
+  /*just to make the navigation line a bit leaner*/
+  padding: 1.5em;
   z-index: 1;
 }
 
@@ -357,7 +359,7 @@ footer .footer-item p:hover {
   }
 } */
 
-/* MONIKA'S FOOTER*/
+/* FOOTER*/
 
 #footer_container {
   background-color: white;
