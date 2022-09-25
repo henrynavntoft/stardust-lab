@@ -28,7 +28,7 @@ function showProduct(product) {
   parent.appendChild(clone);
 }
 
-//Slide
+//Carousel JS
 
 let slideIndex = 1;
 showSlides(slideIndex);
