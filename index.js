@@ -1,4 +1,4 @@
-const url = `https://kea-alt-del.dk/t7/api/products?limit=6`;
+const url = `https://kea-alt-del.dk/t7/api/products?limit=8&start=2000`;
 
 fetch(url)
   .then((res) => res.json())
@@ -15,9 +15,9 @@ function showProduct(product) {
   const temp = document.querySelector("template").content;
   const clone = temp.cloneNode(true);
   // Change stuff
-  clone.querySelector("p.bestsellers-product-price").textContent =
-    product.productdisplayname;
   clone.querySelector("p.bestsellers-product-name").textContent =
+    product.productdisplayname;
+  clone.querySelector("p.bestsellers-product-price").textContent =
     product.price + ",-";
   clone.querySelector(
     "img.bestsellers-product-image"
@@ -26,4 +26,37 @@ function showProduct(product) {
   const parent = document.querySelector(".bestsellers-grid");
   //Appending it
   parent.appendChild(clone);
+}
+
+//Slide
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
 }
