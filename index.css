@@ -352,14 +352,14 @@ footer .footer-item p:hover {
   justify-content: space-evenly;
   /* align-items: center; */
   padding: 1rem;
-  border: 0.2px solid grey;
+  border-top: 0.2px solid #a383f7;
   font-size: 85%;
 }
 
 .footer-column {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   padding: 0.6rem 2rem;
-  line-height: 1.25rem;
+  line-height: 1.45rem;
 }
 
 .footer-column a {
@@ -372,10 +372,15 @@ footer .footer-item p:hover {
   margin: 0;
   padding: 0;
 }
-/*create naming for list items*/
-/*create hover states*/
-/*create active states*/
 
+/*footer hover states*/
+.footer-list-link:hover {
+  font-weight: bold;
+}
+/*footer active states*/
+.footer-list-link:active {
+  color: #a383f7;
+}
 /* Carousel-slide */
 
 .fullsize-carrusel {
