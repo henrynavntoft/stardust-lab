@@ -310,7 +310,7 @@ main h1 {
 }
 /* Footer */
 
-footer {
+/* footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -341,7 +341,40 @@ footer .footer-item p:hover {
     display: flex;
     flex-direction: column;
   }
+} */
+
+/* MONIKA'S FOOTER*/
+
+#footer_container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 1rem;
+  border: 0.2px solid grey;
+  font-size: 85%;
 }
+
+.footer-column {
+  background-color: antiquewhite;
+  padding: 0.6rem 2rem;
+  line-height: 1.25rem;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-column-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*create naming for list items*/
+/*create hover states*/
+/*create active states*/
 
 /* Carousel-slide */
 
