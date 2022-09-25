@@ -258,13 +258,12 @@ input[type="checkbox"] {
 
 .about-grid-item h1 {
   padding-bottom: 1em;
-  justify-content: left;
+  text-align: left;
+  /* font-weight: 600; */
 }
-
-.about-grid-item p {
-  /* line-height: 1.25rem; */
-  color: hotpink;
-  font-size: 92%;
+.frontpage-about-text {
+  font-size: 90%;
+  line-height: 1.25em;
 }
 
 .trustpilot-grid {
@@ -314,6 +313,7 @@ main h1 {
   font-size: 2em;
   padding-top: 1em;
   text-align: center;
+  font-weight: 600;
 }
 /* Footer */
 
