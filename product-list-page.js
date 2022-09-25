@@ -20,6 +20,9 @@ function showProduct(product) {
   clone.querySelector("p.product-list-price").textContent =
     product.price + ",-";
   clone.querySelector(
+    "a.buy-now-but"
+  ).href = `product-page.html?id=${product.id}`;
+  clone.querySelector(
     "img.product-list-image"
   ).src = `https://kea-alt-del.dk/t7/images/webp/1000/${product.id}.webp`;
   //Selection where i want the clone

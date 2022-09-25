@@ -456,3 +456,25 @@ footer .footer-item p:hover {
 }
 
 /* Product Page */
+
+.product-grid {
+  padding-top: 10em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.product-grid img {
+  width: 500px;
+  height: auto;
+  padding: 2em;
+}
+
+.product-price {
+  padding: 2em;
+}
+
+.product-name {
+  padding: 2em;
+}
