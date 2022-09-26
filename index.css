@@ -216,7 +216,6 @@ input[type="checkbox"] {
 
 .bestsellers-grid-item {
   border: 1px solid black;
-  background-color: #f2f2f2;
 }
 
 .bestsellers-grid img {
@@ -235,6 +234,19 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: row;
   padding: 1em;
+}
+
+.buy-now-but {
+  display: flex;
+  background-color: #000000;
+  border-radius: 1em;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.buy-now-but:hover {
+  background-color: greenyellow;
 }
 
 .about-grid {
@@ -444,4 +456,67 @@ footer .footer-item p:hover {
   to {
     opacity: 1;
   }
+}
+
+/* Product List Page */
+
+.product-list {
+  padding-top: 8em;
+}
+
+.product-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-gap: 2em;
+  padding: 2em;
+  justify-items: center;
+}
+
+.product-list-grid-item {
+  border: 1px solid black;
+}
+
+.product-list-grid img {
+  width: 100%;
+  height: auto;
+  padding: 2em;
+}
+
+.product-list-price {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.product-list-name {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+/* Product Page */
+
+.product-grid {
+  padding-top: 10em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.product-grid img {
+  border: 1px solid black;
+  width: 500px;
+  height: auto;
+  padding: 2em;
+}
+
+.product-price {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.product-name {
+  border: 1px solid black;
+  padding: 2em;
 }
