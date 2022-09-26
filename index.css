@@ -466,15 +466,18 @@ footer .footer-item p:hover {
 }
 
 .product-grid img {
+  border: 1px solid black;
   width: 500px;
   height: auto;
   padding: 2em;
 }
 
 .product-price {
+  border: 1px solid black;
   padding: 2em;
 }
 
 .product-name {
+  border: 1px solid black;
   padding: 2em;
 }
