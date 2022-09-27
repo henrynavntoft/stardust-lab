@@ -152,7 +152,7 @@
   transition: transform 200ms ease-in;
   transform: translateY(-2px);
   cursor: pointer;
-  color: darkgrey;
+  color: #a383f7;
 }
 
 #menuToggle input:checked ~ ul {
@@ -260,6 +260,8 @@ input[type="checkbox"] {
   grid-gap: 2em;
   padding: 2em;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  color: white;
+  background-color: black;
 }
 
 .about-grid img {
@@ -463,6 +465,7 @@ footer .footer-item p:hover {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  justify-content: center;
 }
 
 .fade {
