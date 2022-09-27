@@ -256,7 +256,7 @@ input[type="checkbox"] {
 
 .about-grid {
   display: grid;
-  height: 40em;
+  height: 50em;
   grid-gap: 2em;
   padding: 2em;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
