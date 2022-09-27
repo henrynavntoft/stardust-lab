@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: futura-pt, sans-serif;
   margin: 0;
 }
 
@@ -152,7 +152,7 @@
   transition: transform 200ms ease-in;
   transform: translateY(-2px);
   cursor: pointer;
-  color: darkgrey;
+  color: #a383f7;
 }
 
 #menuToggle input:checked ~ ul {
@@ -218,6 +218,8 @@ input[type="checkbox"] {
 
 .bestsellers-grid-item {
   border: 1px solid black;
+  border-radius: 2em;
+  padding: 2em;
 }
 
 .bestsellers-grid img {
@@ -245,18 +247,21 @@ input[type="checkbox"] {
   color: white;
   padding: 1em;
   text-decoration: none;
+  justify-content: center;
 }
 
 .buy-now-but:hover {
-  background-color: greenyellow;
+  background-color: #a383f7;
 }
 
 .about-grid {
   display: grid;
+  height: 40em;
   grid-gap: 2em;
   padding: 2em;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  background-color: #a383f7;
+  color: white;
+  background-color: black;
 }
 
 .about-grid img {
@@ -268,7 +273,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em;
+  padding: 2em;
 }
 
 .about-grid-item h1 {
@@ -418,9 +423,7 @@ footer .footer-item p:hover {
   width: 100%;
   position: relative;
   margin: auto;
-  /* margin: 0; */
-  padding-top: 8em;
-  border: 5px solid hotpink;
+  padding-top: 10em;
 }
 
 .fullsize-carrusel img {
@@ -432,7 +435,7 @@ footer .footer-item p:hover {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -455,13 +458,14 @@ footer .footer-item p:hover {
 }
 
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
-  padding: 8px 12px;
+  padding-bottom: 12em;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  justify-content: center;
 }
 
 .fade {
@@ -517,11 +521,14 @@ footer .footer-item p:hover {
 /* Product Page */
 
 .product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding-top: 10em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
+  justify-items: center;
+}
+
+.product-information {
+  padding-top: 12em;
 }
 
 .product-grid img {
